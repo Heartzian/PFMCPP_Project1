@@ -100,13 +100,13 @@ elevator.goDown();
 //  action 3: the elevator open the door
 elevator.openDoor();
 //  7)
-//  Noun: air conditioner
-//  action 1: the air conditioner check the temperature
-airConditioner.checkTemperature();
-//  action 2: the air conditioner cold the air
-airConditioner.cold();
-//  action 3: the air conditioner ventilate 
-airConditioner.ventilate();
+//  Noun: dishwasher
+//  action 1: the dishwasher check door status
+dishwasher.checkDoorSensor();
+//  action 2: the dishwasher change to the next stage
+dishwasher.nextStage();
+//  action 3: the dishwasher finalize drying 
+dishwasher.endDry();
 //  8)
 //  Noun: fax
 //  action 1: the fax give transfer tone
